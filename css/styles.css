@@ -11792,26 +11792,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.div-img-carousel, .item.active {
-  overflow: hidden;
-  width: 700px;
-  height: 400px;
-  margin: 0 auto;
-  
-}
-
 .carousel-inner {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
 }
 
-#meuSlider {
-  width: 700px;
-  height: 400px;
-}
-.accordion-item{
-  margin-top: 10%;
+.accordion{
+  margin-top:5em;
 }
 .accordion-body{
   border: #5c636a;
@@ -11823,4 +11811,36 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: yellow;
   font-family: 'Noticia Text', serif;
   border: solid yellowgreen;
+  border-radius: 3px;
+}
+
+.carousel-control-next {
+  right: 20em;
+}
+
+.carousel-control-prev {
+  left: 20em;
+}
+
+.centro{
+  text-align: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: none;
+  border: 0;
+  border-width: 15px;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
 }
