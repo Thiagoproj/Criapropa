@@ -653,6 +653,36 @@ progress {
   .setas-member{
     display: none;
   }
+  
+  /* Safari 6.1+ */
+div#item-1 {-webkit-order: 1;}
+div#seta1-2 {-webkit-order: 2;}
+div#item-2 {-webkit-order: 3;}
+div#item-3 {-webkit-order: 4;}
+div#seta4-3 {-webkit-order: 5;}
+div#item-4 {-webkit-order: 6;}
+div#item-5 {-webkit-order: 7;}
+div#seta5-6 {-webkit-order: 8;}
+div#item-6 {-webkit-order: 9;}
+div#item-7 {-webkit-order: 10;}
+div#seta8-7 {-webkit-order: 11;}
+div#item-8 {-webkit-order: 12;}
+
+
+
+/* Standard syntax */
+div#item-1  {order: 1;}
+div#seta1-2 {order: 2;}
+div#item-2  {order: 3;}
+div#item-3 {order: 4;}
+div#seta3-4  {order: 5;}
+div#item-4 {order: 6;}
+div#item-5 {order: 7;}
+div#seta5-6  {order: 8;}
+div#item-6 {order: 9;}
+div#item-7 {order: 10;}
+div#seta8-7  {order: 11;}
+div#item-8  {order: 12;}
 }
 
 @media (min-width: 576px) {
@@ -691,6 +721,36 @@ progress {
   .setas-member{
     display: block;
   }
+ /* Safari 6.1+ */
+div#item-1 {-webkit-order: 1;}
+div#seta1-2 {-webkit-order: 2;}
+div#item-2 {-webkit-order: 3;}
+div#item-3 {-webkit-order: 6;}
+div#seta4-3 {-webkit-order: 5;}
+div#item-4 {-webkit-order: 4;}
+div#item-5 {-webkit-order: 7;}
+div#seta5-6 {-webkit-order: 8;}
+div#item-6 {-webkit-order: 9;}
+div#item-7 {-webkit-order: 12;}
+div#seta8-7 {-webkit-order: 11;}
+div#item-8 {-webkit-order: 10;}
+
+
+
+/* Standard syntax */
+div#item-1  {order: 1;}
+div#seta1-2 {order: 2;}
+div#item-2  {order: 3;}
+div#item-3 {order: 6;}
+div#seta3-4  {order: 5;}
+div#item-4 {order: 4;}
+div#item-5 {order: 7;}
+div#seta5-6  {order: 8;}
+div#item-6 {order: 9;}
+div#item-7 {order: 12;}
+div#seta8-7  {order: 11;}
+div#item-8  {order: 10;}
+
 
 }
 @media (min-width: 1162px) {
